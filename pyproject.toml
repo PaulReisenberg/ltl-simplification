@@ -1,0 +1,18 @@
+[project]
+name = "tl-simplification"
+version = "0.1.0"
+description = "Simplification of Temporal Logic"
+
+authors = [
+    {name = "Paul Reisenberg", email = "paul.reisenberg@web.de"},
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "typeguard==4.2.1",
+    
+]
+
+[tool.setuptools]
+packages = ["tl_simplification", "tl_simplification.utils", "tl_simplification.simplification"]
